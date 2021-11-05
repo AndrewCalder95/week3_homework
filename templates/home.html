@@ -1,0 +1,30 @@
+{% extends "base.html" %}    
+    
+{% block content %}
+
+<main>
+
+<h3>Enter your choices below:</h3>
+
+<form method="POST">
+    <ul>
+        <li>
+            <label for="player1">Player 1:</label>
+            <input type="text" name="player1"/>
+        </li>
+        <br>
+        <li>
+            <label for="player2">Player 2:</label>
+            <input type="text" name="player2"/>
+        </li>
+        <br>
+        <li>
+            <button type="submit">Submit</button>
+        </li>
+    </ul>   
+</form>
+
+</main>
+
+
+{% endblock %}

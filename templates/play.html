@@ -1,0 +1,33 @@
+{% extends "base.html" %}    
+    
+{% block content %}
+
+<main>
+<form method="POST">
+    <ul>
+        <li>
+            <label for="player_check">Who is playing?:</label>
+            <select name="player_check" id="player_check">
+                <option value="Player 1">Player 1</option>
+                <option value="Player 2">Player 2</option>
+            </select>
+        </li>
+        <br>
+        <li>
+            <label for="move_check">What is your move?:</label>
+            <select name="move_check" id="move_check">
+                <option value="rock">Rock</option>
+                <option value="scissors">Scissors</option>
+                <option value="paper">Paper</option>
+            </select>
+        </li>
+        <br>
+        <li>
+            <button type="submit">Submit</button>
+        </li>
+</ul>
+</form>
+
+</main>
+
+{% endblock %}
