@@ -24,25 +24,6 @@ class Game:
 
         return result
 
-    # def computer(self, player):
-
-    #     bot= random.choice(["rock", "paper", "scissors"])
-    #     result = None
-
-    #     if player.choice == "paper" and bot == "rock":
-    #         result = player
-    #     elif player.choice == "rock" and bot == "paper":
-    #         result = bot
-    #     elif player.choice == "scissors" and bot == "paper":
-    #         result = player
-    #     elif player.choice == "paper" and bot == "scissors":
-    #         result = bot
-    #     elif player.choice == "rock" and bot == "scissors":
-    #         result = player
-    #     elif player.choice == "scissors" and bot == "rock":
-    #         result = bot
-
-    #     return result
 
         
             
